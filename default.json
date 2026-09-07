@@ -2,7 +2,7 @@
   "version": 2,
   "coordinateSystem": "X-forward / Y-left / Z-up",
   "rotationOrder": "yaw-pitch-roll (ZYX)",
-  "activeConfigurationId": "fdf7e00b-d785-40b3-896f-d0e79c40ff9f",
+  "activeConfigurationId": "7a1e5dc9-ee38-4e9e-84cb-1d6dd594c49c",
   "configurations": [
     {
       "id": "fdf7e00b-d785-40b3-896f-d0e79c40ff9f",
@@ -561,28 +561,252 @@
           "scanMode": "rotating"
         }
       ]
+    },
+    {
+      "id": "7a1e5dc9-ee38-4e9e-84cb-1d6dd594c49c",
+      "name": "LS only + MID360",
+      "lidars": [
+        {
+          "id": "ba6b39c2-d080-4eb3-8ca1-3528d9b72900",
+          "presetId": "lslidar-ls180s3",
+          "name": "LS180S3 01",
+          "position": [
+            8.700000000000001,
+            0,
+            2.65
+          ],
+          "rotation": [
+            0,
+            0.20943951023931956,
+            0
+          ],
+          "scanMode": "uniform"
+        },
+        {
+          "id": "2ad91418-67f4-406f-8034-1926f37d91c7",
+          "presetId": "lslidar-ch128x1",
+          "name": "CH128X1 01",
+          "position": [
+            8.35,
+            1.4,
+            1.45
+          ],
+          "rotation": [
+            0,
+            0.10471975511965978,
+            2.0943951023931953
+          ]
+        },
+        {
+          "id": "e420145b-dbdf-4c04-8c3e-190414c415af",
+          "presetId": "lslidar-ch128x1",
+          "name": "CH128X1 02",
+          "position": [
+            -3.45,
+            1.3,
+            1.45
+          ],
+          "rotation": [
+            0,
+            0.10471975511965978,
+            1.0471975511965976
+          ]
+        },
+        {
+          "id": "3334b8ff-ae09-4539-b733-a395478765f4",
+          "presetId": "lslidar-ls180s3",
+          "name": "LS180S3 02",
+          "position": [
+            -3.6,
+            0,
+            2.65
+          ],
+          "rotation": [
+            0,
+            0.20943951023931956,
+            3.141592653589793
+          ]
+        },
+        {
+          "id": "22917f13-91fb-42ab-846d-a633b4ed5cd0",
+          "presetId": "lslidar-ch128x1",
+          "name": "CH128X1 03",
+          "position": [
+            -3.45,
+            -1.3,
+            1.45
+          ],
+          "rotation": [
+            6.977115271391529e-18,
+            0.10471975511965981,
+            -1.0471975511965976
+          ]
+        },
+        {
+          "id": "6a309e69-a37b-4a6f-9f80-f7f4b0abeea1",
+          "presetId": "lslidar-ch128x1",
+          "name": "CH128X1 04",
+          "position": [
+            8.35,
+            -1.4,
+            1.45
+          ],
+          "rotation": [
+            0,
+            0.10471975511965978,
+            -2.0943951023931953
+          ]
+        },
+        {
+          "id": "79b86f50-2a80-4e81-aefa-7f1103c6b963",
+          "presetId": "livox-mid360",
+          "name": "Mid-360 01",
+          "position": [
+            8.9,
+            0,
+            3.1500000000000004
+          ],
+          "rotation": [
+            0,
+            1.3962634015954636,
+            0
+          ]
+        },
+        {
+          "id": "67e8b78e-ae99-40ec-b242-175f83df82bd",
+          "presetId": "livox-mid360",
+          "name": "Mid-360 02",
+          "position": [
+            -3.7,
+            0,
+            3.15
+          ],
+          "rotation": [
+            0,
+            -1.3962634015954636,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "db4fc967-f309-4353-942a-47a430127437",
+      "name": "LS only copy copy",
+      "lidars": [
+        {
+          "id": "b64e8830-6b1f-4c71-9838-a5c4d4b3f426",
+          "presetId": "lslidar-ls180s3",
+          "name": "LS180S3 01",
+          "position": [
+            8.700000000000001,
+            0,
+            2.65
+          ],
+          "rotation": [
+            0,
+            0.20943951023931956,
+            0
+          ],
+          "scanMode": "uniform"
+        },
+        {
+          "id": "4a3f5c21-031d-4707-a4f5-e4562dd5efcb",
+          "presetId": "lslidar-ch128x1",
+          "name": "CH128X1 01",
+          "position": [
+            8.35,
+            1.4,
+            1.45
+          ],
+          "rotation": [
+            0,
+            0.10471975511965978,
+            2.0943951023931953
+          ]
+        },
+        {
+          "id": "bc9a20e0-5e70-41de-8f49-c6b5b97b6976",
+          "presetId": "lslidar-ch128x1",
+          "name": "CH128X1 02",
+          "position": [
+            -3.45,
+            1.3,
+            1.45
+          ],
+          "rotation": [
+            0,
+            0.10471975511965978,
+            1.0471975511965976
+          ]
+        },
+        {
+          "id": "f58d249f-06aa-432f-9c75-bf48425dc3a8",
+          "presetId": "lslidar-ls180s3",
+          "name": "LS180S3 02",
+          "position": [
+            -3.6,
+            0,
+            2.65
+          ],
+          "rotation": [
+            0,
+            0.20943951023931956,
+            3.141592653589793
+          ]
+        },
+        {
+          "id": "2e1733b0-242a-4ac1-92aa-a9e809232108",
+          "presetId": "lslidar-ch128x1",
+          "name": "CH128X1 03",
+          "position": [
+            -3.45,
+            -1.3,
+            1.45
+          ],
+          "rotation": [
+            6.977115271391529e-18,
+            0.10471975511965981,
+            -1.0471975511965976
+          ]
+        },
+        {
+          "id": "582e66b6-9ea1-4093-8471-c76add0cc842",
+          "presetId": "lslidar-ch128x1",
+          "name": "CH128X1 04",
+          "position": [
+            8.35,
+            -1.4,
+            1.45
+          ],
+          "rotation": [
+            0,
+            0.10471975511965978,
+            -2.0943951023931953
+          ]
+        }
+      ]
     }
   ],
   "display": {
-    "previewRange": 7,
-    "fovOpacity": 0.04,
+    "previewRange": 3,
+    "fovOpacity": 0.2,
     "fovVisible": true
   },
   "simulation": {
     "enabled": true,
-    "maxRange": 105,
+    "maxRange": 250,
     "accumulationSeconds": 0.1,
-    "rayBudget": 120000,
+    "rayBudget": 75000,
     "showMisses": true
   },
   "obstacles": [
     {
-      "id": "0bd14afb-28ea-4d06-9bc0-9365f4f5d6e9",
+      "id": "d9782082-f827-40e4-912f-bd323e031fc5",
       "name": "lada_vesta",
       "fileName": "lada_vesta.glb",
       "position": [
-        13.450000000000001,
-        2.45,
+        12.3,
+        -2.9000000000000004,
         0
       ],
       "rotation": [
