@@ -1,0 +1,596 @@
+{
+  "version": 2,
+  "coordinateSystem": "X-forward / Y-left / Z-up",
+  "rotationOrder": "yaw-pitch-roll (ZYX)",
+  "activeConfigurationId": "fdf7e00b-d785-40b3-896f-d0e79c40ff9f",
+  "configurations": [
+    {
+      "id": "fdf7e00b-d785-40b3-896f-d0e79c40ff9f",
+      "name": "LS + QT128 + MID360",
+      "lidars": [
+        {
+          "id": "8d2d9f6b-16be-4106-9c65-95b04738cf51",
+          "presetId": "lslidar-ch128x1",
+          "name": "F1",
+          "position": [
+            8.6,
+            0,
+            3.1
+          ],
+          "rotation": [
+            0,
+            0.20943951023931956,
+            0
+          ],
+          "scanMode": "roi-raster"
+        },
+        {
+          "id": "28405884-d495-43ed-bc1c-7b7b81ffad23",
+          "presetId": "hesai-qt128",
+          "name": "R",
+          "position": [
+            2.5,
+            -1.35,
+            3.25
+          ],
+          "rotation": [
+            0.6806784082777885,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "abf29aae-3f65-45dc-96a6-7f88828c658d",
+          "presetId": "hesai-qt128",
+          "name": "L",
+          "position": [
+            2.5,
+            1.35,
+            3.25
+          ],
+          "rotation": [
+            -0.6806784082777885,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "5cdbad44-6a98-4815-8111-749bcd8eb004",
+          "presetId": "livox-mid360",
+          "name": "F2",
+          "position": [
+            8.8,
+            0,
+            3.35
+          ],
+          "rotation": [
+            0,
+            1.3613568165555783,
+            0
+          ]
+        },
+        {
+          "id": "0e783bdd-35af-4b5d-ae0b-9c73dab5ee72",
+          "presetId": "livox-mid360",
+          "name": "B2",
+          "position": [
+            -3.5500000000000003,
+            0,
+            3.35
+          ],
+          "rotation": [
+            0,
+            -1.361356816555577,
+            0
+          ]
+        },
+        {
+          "id": "c2cc6eb6-1628-45cd-abf8-484340c7c75b",
+          "presetId": "lslidar-ch128x1",
+          "name": "B1",
+          "position": [
+            -3.3000000000000003,
+            0,
+            3.1
+          ],
+          "rotation": [
+            0,
+            0.20943951023931956,
+            3.141592653589793
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32cdc248-cccc-4b21-b3d2-59e0bb1ccf02",
+      "name": "Imported layout copy 2",
+      "lidars": [
+        {
+          "id": "18cf0497-1495-4bed-99d0-f3ec22cf9e2a",
+          "presetId": "lslidar-ch128x1",
+          "name": "F1",
+          "position": [
+            8.6,
+            0,
+            3.1
+          ],
+          "rotation": [
+            0,
+            0.20943951023931956,
+            0
+          ],
+          "scanMode": "roi-raster"
+        },
+        {
+          "id": "b9003e6f-7d6d-4a72-8318-e7e1ea931e2f",
+          "presetId": "livox-mid360",
+          "name": "R",
+          "position": [
+            -0.7000000000000001,
+            -1.35,
+            3.25
+          ],
+          "rotation": [
+            1.3962634015954636,
+            0,
+            0
+          ],
+          "scanMode": "non-repetitive"
+        },
+        {
+          "id": "91398563-f80a-4ac8-9928-710bb02d7673",
+          "presetId": "livox-mid360",
+          "name": "L",
+          "position": [
+            2.5,
+            1.35,
+            3.25
+          ],
+          "rotation": [
+            -1.5707963267948966,
+            0,
+            0
+          ],
+          "scanMode": "non-repetitive"
+        },
+        {
+          "id": "1b08f508-b623-43fa-a73b-fbfda1fb6371",
+          "presetId": "livox-mid360",
+          "name": "F2",
+          "position": [
+            8.8,
+            0,
+            3.35
+          ],
+          "rotation": [
+            0,
+            1.3613568165555783,
+            0
+          ]
+        },
+        {
+          "id": "c19c84f5-66e1-42da-8f71-925cbaeea659",
+          "presetId": "livox-mid360",
+          "name": "B2",
+          "position": [
+            -3.5500000000000003,
+            0,
+            3.35
+          ],
+          "rotation": [
+            0,
+            -1.361356816555577,
+            0
+          ]
+        },
+        {
+          "id": "f9bf0785-91cd-4d53-9a4a-8c039b51471c",
+          "presetId": "lslidar-ch128x1",
+          "name": "B1",
+          "position": [
+            -3.3000000000000003,
+            0,
+            3.1
+          ],
+          "rotation": [
+            0,
+            0.20943951023931956,
+            3.141592653589793
+          ]
+        },
+        {
+          "id": "2c52b0aa-51fa-447f-a217-86d1f6e66ced",
+          "presetId": "livox-mid360",
+          "name": "Mid-360 05",
+          "position": [
+            5.550000000000001,
+            -1.35,
+            3.25
+          ],
+          "rotation": [
+            1.3962634015954636,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4850219c-4863-4ce5-b910-8b055314def8",
+      "name": "LS + QT128 + MID360 v2",
+      "lidars": [
+        {
+          "id": "166be553-9d11-4031-8592-c3e7c893d3fe",
+          "presetId": "lslidar-ch128x1",
+          "name": "F1",
+          "position": [
+            8.6,
+            0,
+            3.1
+          ],
+          "rotation": [
+            0,
+            0.20943951023931956,
+            0
+          ],
+          "scanMode": "roi-raster"
+        },
+        {
+          "id": "6d4d923d-de9a-4703-8a92-faf7f37cc27b",
+          "presetId": "hesai-qt128",
+          "name": "R",
+          "position": [
+            2.5,
+            -1.35,
+            3.25
+          ],
+          "rotation": [
+            0.6806784082777885,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "cba0e9ef-07fb-4630-90ef-d5e5c7adbaf5",
+          "presetId": "hesai-qt128",
+          "name": "L",
+          "position": [
+            2.5,
+            1.35,
+            3.25
+          ],
+          "rotation": [
+            -0.6806784082777885,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "1a3577a4-d87c-468c-a654-7d2a026a67b8",
+          "presetId": "livox-mid360",
+          "name": "F2",
+          "position": [
+            8.8,
+            -1,
+            3.35
+          ],
+          "rotation": [
+            1.3349694529663392e-16,
+            1.3613568165555783,
+            -0.3490658503988656
+          ]
+        },
+        {
+          "id": "14ddd500-f448-4fd6-ad72-08cafc9954b7",
+          "presetId": "livox-mid360",
+          "name": "B2",
+          "position": [
+            -3.5500000000000003,
+            0,
+            3.35
+          ],
+          "rotation": [
+            0,
+            -1.361356816555577,
+            0
+          ]
+        },
+        {
+          "id": "d479b46e-4e33-4423-8160-ee76074bc5d5",
+          "presetId": "lslidar-ch128x1",
+          "name": "B1",
+          "position": [
+            -3.3000000000000003,
+            0,
+            3.1
+          ],
+          "rotation": [
+            0,
+            0.20943951023931956,
+            3.141592653589793
+          ]
+        },
+        {
+          "id": "2c738c89-86bb-4567-9ab9-698d55fa1afd",
+          "presetId": "livox-mid360",
+          "name": "F3",
+          "position": [
+            8.8,
+            1,
+            3.35
+          ],
+          "rotation": [
+            0,
+            1.361356816555577,
+            0.3490658503988659
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5b6caf36-ede7-40b0-a359-71e888810393",
+      "name": "LS + QT128",
+      "lidars": [
+        {
+          "id": "ec560a7e-9b7e-486d-9dcd-45bebfba3fc6",
+          "presetId": "lslidar-ch128x1",
+          "name": "F1",
+          "position": [
+            8.6,
+            0,
+            3.1
+          ],
+          "rotation": [
+            0,
+            0.20943951023931956,
+            0
+          ],
+          "scanMode": "roi-raster"
+        },
+        {
+          "id": "c9def3d5-035e-4aa9-81fb-8348bd676c22",
+          "presetId": "hesai-qt128",
+          "name": "R",
+          "position": [
+            2.5,
+            -1.35,
+            3.25
+          ],
+          "rotation": [
+            0.6806784082777885,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "6b695b3c-d189-41cd-a1ad-8a2fc0faa389",
+          "presetId": "hesai-qt128",
+          "name": "L",
+          "position": [
+            2.5,
+            1.35,
+            3.25
+          ],
+          "rotation": [
+            -0.6806784082777885,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "70369640-3835-4e82-97b5-81a220d3b23b",
+          "presetId": "hesai-qt128",
+          "name": "F2",
+          "position": [
+            8.8,
+            0,
+            3.35
+          ],
+          "rotation": [
+            0,
+            1.3613568165555783,
+            0
+          ],
+          "scanMode": "rotating"
+        },
+        {
+          "id": "0b5bc1c9-3d0e-4458-bec2-357e4ab68a56",
+          "presetId": "hesai-qt128",
+          "name": "B2",
+          "position": [
+            -3.5500000000000003,
+            0,
+            3.35
+          ],
+          "rotation": [
+            0,
+            -1.361356816555577,
+            0
+          ],
+          "scanMode": "rotating"
+        },
+        {
+          "id": "3d1769c6-a7bf-48ef-9555-c00c3103f1c9",
+          "presetId": "lslidar-ch128x1",
+          "name": "B1",
+          "position": [
+            -3.3000000000000003,
+            0,
+            3.1
+          ],
+          "rotation": [
+            0,
+            0.20943951023931956,
+            3.141592653589793
+          ]
+        }
+      ]
+    },
+    {
+      "id": "83ca9008-0660-4611-be1d-8ee1fe0fa836",
+      "name": "QT128 + QT128",
+      "lidars": [
+        {
+          "id": "2280feba-468b-4f18-a53b-043e27619d09",
+          "presetId": "hesai-qt128",
+          "name": "R",
+          "position": [
+            2.5,
+            -1.35,
+            3.25
+          ],
+          "rotation": [
+            0.6806784082777885,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "42d2d72c-c4ce-4528-87e5-d850f737f7b2",
+          "presetId": "hesai-qt128",
+          "name": "L",
+          "position": [
+            2.5,
+            1.35,
+            3.25
+          ],
+          "rotation": [
+            -0.6806784082777885,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "aa06896d-64c6-4b08-b3e4-370a41e3d5d0",
+          "presetId": "hesai-qt128",
+          "name": "F2",
+          "position": [
+            8.950000000000001,
+            0,
+            3.25
+          ],
+          "rotation": [
+            0,
+            0.5061454830783556,
+            0
+          ],
+          "scanMode": "rotating"
+        },
+        {
+          "id": "3eb4cfd3-9fc7-4ae2-a4d1-739266ca8d9b",
+          "presetId": "hesai-qt128",
+          "name": "B2",
+          "position": [
+            -3.5500000000000003,
+            0,
+            3.25
+          ],
+          "rotation": [
+            0,
+            -0.5061454830783556,
+            0
+          ],
+          "scanMode": "rotating"
+        }
+      ]
+    },
+    {
+      "id": "51c226a1-85de-4095-9dad-4f5b6df537eb",
+      "name": "OT128 + QT128 copy",
+      "lidars": [
+        {
+          "id": "457c0518-5483-45e1-a45b-2f2eb371b7b3",
+          "presetId": "hesai-qt128",
+          "name": "R",
+          "position": [
+            2.5,
+            -1.35,
+            3.25
+          ],
+          "rotation": [
+            0.6806784082777885,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "1f7a552c-00c3-4c0a-891e-8c37c944de8a",
+          "presetId": "hesai-qt128",
+          "name": "L",
+          "position": [
+            2.5,
+            1.35,
+            3.25
+          ],
+          "rotation": [
+            -0.6806784082777885,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "a9acb6f5-3473-43e7-8690-9f0997b67af6",
+          "presetId": "hesai-ot128",
+          "name": "F2",
+          "position": [
+            9.200000000000001,
+            0.05,
+            1.5
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scanMode": "rotating"
+        },
+        {
+          "id": "a00a4296-fbdd-41d0-86c1-3ad793714f4a",
+          "presetId": "hesai-qt128",
+          "name": "B2",
+          "position": [
+            -3.5500000000000003,
+            0,
+            3.25
+          ],
+          "rotation": [
+            0,
+            -0.5061454830783556,
+            0
+          ],
+          "scanMode": "rotating"
+        }
+      ]
+    }
+  ],
+  "display": {
+    "previewRange": 7,
+    "fovOpacity": 0.04,
+    "fovVisible": true
+  },
+  "simulation": {
+    "enabled": true,
+    "maxRange": 105,
+    "accumulationSeconds": 0.1,
+    "rayBudget": 120000,
+    "showMisses": true
+  },
+  "obstacles": [
+    {
+      "id": "0bd14afb-28ea-4d06-9bc0-9365f4f5d6e9",
+      "name": "lada_vesta",
+      "fileName": "lada_vesta.glb",
+      "position": [
+        13.450000000000001,
+        2.45,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "vehicleFile": "liaz.glb"
+}
